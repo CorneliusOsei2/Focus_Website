@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.info-section{
+   position: absolute;
+   left: 10%;
+   width: 80%;
+   height: 100vh;
+}
+.info-section .bus-pic{
+    position: relative;
+    top: 8%;
+    width: 100%;
+    height: 30%;
+}
+.info-section .bus-pic img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.info-section .text{
+    position: absolute;
+    padding: 5px;
+    color: rgb(78, 78, 80);
+    top: 40%;
+}
+
+.form{
+    position: relative;
+    top: 60%;
+    width: 40%;
+    
+
+}
