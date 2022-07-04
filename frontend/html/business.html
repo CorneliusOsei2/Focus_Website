@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/business.css">
     <title>Business Page</title>
 </head>
 <body>
     <div class="business">
-        <img src="../images/business.jpg" alt="Image of Business Discussion">
-        <div class="text"></div>
+        <div class="image">
+            <img src="../images/business.jpg" alt="Image of a business discussion">
+        </div>
+        <div class="text"><p id="txt"></p></div>
         <div class="form">
-            <form action=""></form>
+            <form action="" method="get">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone Number">
+                <textarea class="message" name="message" id="" cols="23" rows="4" placeholder="Message"></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            
         </div>
     </div>
+    <script src="../javascript/business.js"></script>
 </body>
 </html>
